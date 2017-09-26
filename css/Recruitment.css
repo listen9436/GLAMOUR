@@ -1,0 +1,40 @@
+*{margin:0;padding:0}
+body{font-family:"microsoft yahei","微软雅黑";color:#333;width: 100%}
+img{width:100%;border:none}
+/*content*/
+.content{width:100%;margin:0 auto;overflow:hidden}
+.content_topBg{width:100%;height:450px;margin:0 auto;position:relative}
+.bg{position:absolute;left:0;top:0;width:100%;height:100%}
+.topBg_text{width:260px;height:100px;position:absolute;top:50%;margin-top:-40px;margin-bottom:60px;left:50%;margin-left:-130px}
+.topBg_text p{width:100%;height:30px;line-height:30px;text-align:center;font-size:28px;color:#d2dbf1;margin-bottom:20px}
+.topBg_text a{display:block;width:100%;height:50px}
+.content_job{max-width:1366px;margin: 0 auto;overflow: hidden}
+.job_title{width: 120px;height: 120px;margin: 80px auto 100px;position: relative}
+.job_title img{position: absolute;left: -5px}
+.job_cont{width: 100%;height: 800px;overflow: hidden}
+.jobBox{overflow:hidden;width: 28%;height: 700px;float:left;margin:0 2.4%;border: 2px solid #666;-webkit-box-shadow:0px 0px 30px #444;-o-box-shadow:0px 0px 30px #444;-moz-box-shadow:0px 0px 30px #444;box-shadow:0px 0px 30px #444;position: relative}
+.jobBox:hover{border: 2px solid #E97831;-webkit-box-shadow:0px 0px 30px #E97831;-o-box-shadow:0px 0px 30px #E97831;-moz-box-shadow:0px 0px 30px #E97831;box-shadow:0px 0px 30px #E97831;transition: all 1s;-webkit-transition: all 1s;-moz-transition: all 1s;-o-transition: all 1s;}
+.jobBox p{width: 80%;padding:0 10%;margin-top:5px;font-size: 13px;color: #555;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:20}
+.join_job{width: 50%;position: absolute;left: 50%;margin-left: -25%;bottom: 0;cursor: pointer}
+.join_job2{width: 50%;position: absolute;left: 50%;margin-left: -25%;bottom: 0;cursor:pointer}
+.yaoqiu{width: 100%;height:500px;position: absolute;top:100%;left:0;opacity:0;background:#E97831;border-top-right-radius: 130px;border-bottom-left-radius: 130px}
+.job_btm{width: 100%}
+.btm_title{width: 120px;height: 120px;margin: 0 auto}
+.fuli_box{width: 100%;height: 600px;position: relative}
+.fuli_box a{position: absolute;display: none}
+.fuli_Img1{width: 17%;left: 22%;top:130px;}
+.fuli_Img2{width: 21%;left: 50%;margin-left: -10.5%;top:160px}
+.fuli_Img3{width: 17%;right:22%;top: 260px}
+.fuli_Img4{width: 20%;left: 2%;top:80px}
+.fuli_Img5{width: 20%;left: 2%;top:280px}
+.fuli_Img6{width: 20%;right: 5%;top:130px}
+.fuli_Img7{width: 20%;right: 1.2%;top:260px}
+.fuli_Img8{width: 20%;right: 3.5%;top:440px}
+.fuli_btm{width: 100%;margin-top: 100px}
+.body_shadow{background: rgba(12,12,12,0.5);position: absolute;left:0;top:0;display:none;z-index: 9999}
+.shadow_box{width: 40%;height: 300px;background: #fff;border:2px solid #999;position: fixed;top:25%;left: 50%;margin-left: -20%;display: none}
+.shaBox_left{width: 40%;height:300px;float: left;position: relative}
+.shaBox_left img{position: absolute;left: 0;top:50%;margin-top: -50%}
+.shaBox_right{width: 40%;height:200px;padding:50px 10%;float: right;position:relative;background: linear-gradient(to right,#fff,#d5ccf7,#8daced);background: -moz-linear-gradient(to right,#fff,#d5ccf7,#8daced);background: -o-linear-gradient(to right,#fff,#d5ccf7,#8daced)}
+.shaBox_right p{text-align: center}
+.sure{width: 40%;height:40px;line-height:40px;text-align:center;font-size:20px;color:#fff;position: absolute;bottom: 50px;left: 50%;margin-left: -20%;border:0;outline: 0 none;background: #8daced;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;cursor: pointer}

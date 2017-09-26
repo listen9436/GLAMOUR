@@ -1,0 +1,29 @@
+*{margin:0;padding:0}
+body{font-family:"microsoft yahei","微软雅黑";color:#333}
+img{width:100%;border:none}
+.top_line{width:100%;height:4px;background:url(../images/top_line.png) repeat}
+.header{width:100%;height:110px;padding-bottom:20px;overflow:hidden}
+.header_content{max-width:1366px;min-width:980px;margin:0 auto;overflow:hidden}
+.logo{display:block;width:60px;height:60px;margin:25px 0 25px 95px;text-align:center;float:left;overflow:hidden}
+.nav{float:left;margin:40px 0}
+.nav li{list-style:none;float:left;cursor:pointer;height:30px;line-height:30px;padding:0 10px;margin:0 30px;overflow:hidden;border:3px solid transparent}
+.nav .active{border:3px solid #0AA6E8;-webkit-border-image:url(../images/biankuang01.png) 3 3 stretch;-o-border-image:url(../images/biankuang01.png) 3 3 stretch;-moz-border-image:url(../images/biankuang01.png) 3 3 stretch;border-image:url(../images/biankuang01.png) 3 3 stretch}
+.search{display:inline-block;margin:35px 80px 0 0;float:right;width:38px;height:38px;cursor:pointer}
+/* foot */
+.footer{overflow:hidden;width:100%;height:360px;border-top:2px solid #ccc;background:#f1f1f1}
+.footer_content{position:relative;margin:0 auto;max-width:1280px;min-width:980px;height:100%}
+.footer_content ul{float:left;margin-top:50px;margin-right:230px}
+.footer_content ul p{font-size:20px}
+.footer_content ul li{margin:10px 0 0 20px;color:#999}
+.footer_content ul li a{display:block;min-width:60px;color:#444;text-decoration:none;font-size:15px}
+.footer_content ul li a:hover{color:#00a1e9}
+.footer_right{float:right;overflow:hidden;width:305px}
+.footer_name{margin-top:50px;font-weight:400;font-size:20px}
+.footer_logo{margin-bottom:30px;padding:10px 0;width:100%;height:25px;text-align:center}
+.footer_logo a{display:inline-block;width:125px;height:25px}
+.hezuo{width:100%;height:55px;outline:0 none;border:0;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px;background:#fff;text-align:center;font-size:30px;line-height:55px;cursor:pointer}
+.hezuo a{text-decoration: none;color: #666}
+.hezuo:hover{background:#0A7EC3}
+.hezuo:hover a{color: #fff}
+.ICP{position:absolute;bottom:15px;width:100%;color:#666;text-align:center;font-size:12px}
+#backTop{position:fixed;right:35px;bottom:280px;z-index:999;display:none;width:150px;height:150px;cursor:pointer}

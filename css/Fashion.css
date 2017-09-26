@@ -1,0 +1,63 @@
+*{margin:0;padding:0}
+body{font-family:"microsoft yahei","微软雅黑";color:#333}
+img{width:100%;border:none}
+/*content*/
+.content{width:100%;overflow:hidden}
+.content_topBg{width:100%;height:450px;margin:0 auto;position:relative}
+.bg{position:absolute;left:0;top:0;width:100%;height:100%}
+.topBg_text{width:260px;height:100px;position:absolute;top:50%;margin-top:-40px;margin-bottom:60px;left:50%;margin-left:-130px}
+.topBg_text p{width:100%;height:30px;line-height:30px;text-align:center;font-size:28px;color:#d2dbf1;margin-bottom:20px}
+.topBg_text a{display:block;width:100%;height:50px}
+.fashion_one{width:100%;padding-top:125px;overflow:hidden}
+.fashion_one_pc{width:750px;height:654px;margin:0 auto;margin-bottom:80px}
+.together{width:200px;height:50px;line-height:50px;text-align:center;font-size:22px;margin:0 auto;border:2px solid #888;border-radius:12px;display: none}
+.together a{color:#666;text-decoration: none}
+.together a:hover{color: #51c0eb;cursor: pointer}
+.active_tge{animation: tge linear 1s 1}
+@keyframes tge { 0%{} 50%{border:2px solid #51c0eb;font-size: 23px;color: #51c0eb} 100%{} }
+.fashion_two{width:100%;padding-top:150px;opacity: 0}
+.fashion_map{width:960px;height:650px;margin:0 auto}
+.map_text{width:360px;height:90px;margin:0 auto;border:2px solid #51c0eb;border-radius:25px;margin-top:20px;margin-bottom:160px;overflow:hidden}
+.map_text_ul{width:100%;height:100%}
+.map_text_ul li{float:left;list-style:none;width:45%;padding-left:5%;height:45px;line-height:45px;font-size:18px;color:#777}
+.map_text_ul li:hover{color:#51c0eb;cursor:pointer}
+.map_text_ul li a{font-size:35px;vertical-align:middle}
+.fashion_three{width:960px;height:500px;margin:0 auto}
+.fashion_hezuo{width:720px;height:80px;margin:0 auto}
+.three_ul{width:100%;margin-top:50px}
+.three_ul li{list-style:none;float:left;width:21%;height:140px;margin-right:5%;margin-bottom:5%;text-align:center;box-sizing:border-box;transition:all .5s ease;position: relative}
+.three_ul li:nth-child(4){margin:0}
+.three_ul li:nth-child(5){margin-left:13%}
+.three_ul li a{display:inline-block;width:150px}
+.line-top{position: absolute;left: 50%;top: -1px;display: inline-block;width: 0%;height: 2px;transition: all 0.6s ease 0s;-webkit-transition: all 0.6s ease 0s;-moz-transition: all 0.6s ease 0s;}
+.line-bottom{position:absolute;left:50%;bottom:-1px;display:inline-block;width:0;height:2px;transition:all .6s ease 0s;-webkit-transition:all .6s ease 0s;-moz-transition:all .6s ease 0s}
+.line-left{position:absolute;left:-1px;top:50%;display:inline-block;width:2px;height:0;transition:all .6s ease 0s;-webkit-transition:all .6s ease 0s;-moz-transition:all .6s ease 0s}
+.line-right{position:absolute;right:-1px;top:50%;display:inline-block;width:2px;height:0;transition:all .6s ease 0s;-webkit-transition:all .6s ease 0s;-moz-transition:all .6s ease 0s}
+.three_ul li:hover .line-top{width:100%;left:0}
+.three_ul li:hover .line-bottom{width:100%;left:0}
+.three_ul li:hover .line-left{height:100%;top:0}
+.three_ul li:hover .line-right{height:100%;top:0}
+.fashion_four{margin-top:120px}
+.four_square{width:40px;height:40px;margin:0 auto}
+.shop_show{margin:60px auto 0;width:951px;height:951px;position:relative}
+.shop_show>div{width:100%;height:100%;position:absolute;top:0;left:0;display:none}
+.shop_show>div:last-child{display:block}
+.shop_show>div>ul>li{list-style:none;float:left;width:317px;height:317px;position:relative}
+.shop_show img{width:100%;height:100%}
+.shopShow_shadow{display:block;width:100%;height:100%;background:rgba(12,12,12,.8);position:absolute;top:0;left:0}
+.shopShow_shadow a{display:block;width:180px;height:30px;position:absolute;top:35%;left:50%;margin-left:-90px}
+.shopShow_shadow span{display:block;width:100%;height:60px;line-height:60px;text-align:center;font-size:20px;color:#999;position:absolute;top:50%;margin-top:-10px}
+.loading{width:200px;height:40px;margin:40px auto 70px;cursor:pointer}
+.loading a{display:block;width:40px;height:40px;float:left}
+.loading span{font-size:20px;display:block;width:160px;height:40px;line-height:40px;text-align:center;float:left}
+.fashion_five{width: 100%;height: 550px;padding-top:20px;overflow:hidden}
+.five_content{width: 100%;height:550px;background: url("../images/kaiye_bg.jpg")no-repeat center;position: relative}
+/*.bg_shadow{width: 100%;height: 100%;position:absolute;top:0;left:0;background: rgba(255,255,255,0.5)}*/
+.five_line{width: 100%;height: 2px;background: #666;position: absolute;top:50%;margin-top: -1px;z-index: 998}
+.five_text{width: 100%;height: 100%;position: absolute;left: 0;top:0}
+.five_text div{margin-top:260px;float:left;list-style:none;width: 13%;height: 280px;margin-left:6%;overflow:hidden;position:relative;z-index: 999}
+.five_text div p{text-align: center;color: #000;font-size: 15px;margin-top: 80px}
+.five_text div p a{font-weight: bold;font-size: 16px}
+.five_text div span{display: block;position:absolute;left:50%;margin-left:-12px;top:0;width: 25px;height: 25px;border: 2px solid #666;border-radius: 50%;background: #666}
+.kaiye{position: absolute;left: 50px;top: 360px;font-size: 20px;color: #444;font-weight: bold}
+.weikaiye{position: absolute;right: 40px;top:50px;font-size: 20px;color: #444;font-weight: bold}

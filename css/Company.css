@@ -1,0 +1,35 @@
+*{margin:0;padding:0}
+body{font-family:"microsoft yahei","微软雅黑";color:#333}
+img{width:100%;border:none}
+/*content*/
+.content{width:100%;margin:0 auto;overflow:hidden}
+.content_topBg{width:100%;height:450px;margin:0 auto;position:relative}
+.bg{position:absolute;left:0;top:0;width:100%;height:100%}
+.topBg_text{width:260px;height:100px;position:absolute;top:50%;margin-top:-40px;margin-bottom:60px;left:50%;margin-left:-130px}
+.topBg_text p{width:100%;height:30px;line-height:30px;text-align:center;font-size:28px;color:#d2dbf1;margin-bottom:20px}
+.topBg_text a{display:block;width:100%;height:50px}
+.center_logo{width:100%;height:344px;margin-top:80px;margin-bottom:60px;position:relative;overflow: hidden}
+.center_logo a{display:block;width:382px;height:344px;position:absolute;left:50%;margin-left:-191px;display: none}
+.center_text{width:100%;text-align:center;height:35px;line-height:35px;font-size:30px;font-weight:400;color:#575a5f;letter-spacing:15px;margin-bottom:75px}
+.center_line{width: 785px;height:25px;margin: 50px auto}
+.center_line01{display: block;width: 26px;height: 26px;float: left;border:2px solid #666;border-radius:100%;margin-left: 20px}
+.center_line02{display:block;width: 734px;height: 2px;background: #666;float: left;margin-top: 13px}
+.center_text2{width: 785px;margin: 0px auto}
+.center_text2 h5{line-height:35px;font-size: 18px;font-weight: normal;letter-spacing:2px;text-indent:2em;color:#555}
+.center_text2 p{width:100%;line-height:35px;font-size:18px;letter-spacing:2px;color:#555}
+.center_text2 p a{font-weight: bold;font-size: 17px}
+.center_text3{width: 785px;height:400px;margin: 0 auto;overflow: hidden}
+.center_text3 p{font-size: 16px;color: #555;margin: 15px 0;}
+/*.fenxiang{width:300px;height:60px;margin: 90px auto 120px}*/
+/*.fenxiang a{float:left;display:block;width:60px;height:60px;margin-right:20px;cursor:pointer}*/
+/*.fenxiang a:last-child{margin:0}*/
+/*.fenxiang a:hover{transform:scale(1.2,1.2);-ms-transform:scale(1.2,1.2);-moz-transform:scale(1.2,1.2);-webkit-transform:scale(1.2,1.2);-o-transform:scale(1.2,1.2);transition:all .5s ease 0s;-moz-transition:all .5s ease 0s;-webkit-transition:all .5s ease 0s;-o-transition:all .5s ease 0s}*/
+.socialShare{display: block;width: 295px;height: 60px;margin: 90px auto 120px;position: relative}
+.socialShare .msb_network_button{float: left;width: 57px;height: 58px;margin-right:20px;cursor: pointer;}
+.socialShare .msb_network_button:hover{transform:scale(1.2,1.2);-ms-transform:scale(1.2,1.2);-moz-transform:scale(1.2,1.2);-webkit-transform:scale(1.2,1.2);-o-transform:scale(1.2,1.2);transition:all .5s ease 0s;-moz-transition:all .5s ease 0s;-webkit-transition:all .5s ease 0s;-o-transition:all .5s ease 0s}
+.socialShare .msb_network_button:last-child{margin:0;}
+.socialShare .msb_network_button.weixin{background: url("../images/weixin.png");}
+.socialShare .msb_network_button.qZone{background: url("../images/kongjian.png");}
+.socialShare .msb_network_button.douban{background: url("../images/tudou.png");}
+.socialShare .msb_network_button.sina{background: url("../images/weibo.png");}
+.erweima{display:block;width: 200px;height: 200px;position: absolute;left: -300px;top:-80px;border: 4px solid #FFF;box-shadow: 0 0 5px #DDD;border-radius: 10px;opacity: 0}
